@@ -7,110 +7,111 @@ const cardElements = [
     {
       id: 1,
       title: 'Jardin Pedregal',
-      author: 'Jorge',
-      cover: 'fondo04.jpg'
+      author: 'Jorge, $500 por 8 Hrs',
+     
+      cover: 'https://images.unsplash.com/photo-1547389432-95b8f3c47f3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     },
     {
       id: 2,
       title: 'Jardin Del Valle',
-      author: 'Juan',
-      cover: 'fondo05.jpg'
+      author: 'Juan, $800 por 8 Hrs',
+      cover: 'https://images.unsplash.com/photo-1547389432-8def40fe9a27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     },
     {
       id: 3,
       title: 'Jardin Cuernavaca',
-      author: 'Luis',
-      cover: 'fondo06.jpg'
+      author: 'Luis, $600 por 8 Hrs',
+      cover: 'https://images.unsplash.com/photo-1563827367882-3a0c0eb79d19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     },
     {
       id: 1,
       title: 'Jardin Roma',
-      author: 'Monica',
-      cover: 'fondo07.jpg'
+      author: 'Monica, $450 por 8 Hrs',
+      cover: 'https://images.unsplash.com/photo-1565132901909-b2241512d177?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     },
     {
       id: 2,
       title: 'Jardin Cancun',
-      author: 'Are',
-      cover: 'fondo08.jpg'
+      author: 'Are, $500 por 8 Hrs',
+      cover: 'https://images.unsplash.com/photo-1526824864101-1fd9adfdca99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     },
     {
       id: 3,
       title: 'Jardin Los Cabos',
-      author: 'Mafer',
-      cover: 'fondo09.jpg'
+      author: 'Mafer, $350 por 8 Hrs',
+      cover: 'https://images.unsplash.com/photo-1541633650519-cb5ae9c482db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     },
     {
       id: 1,
       title: 'Jardin Lindavista',
-      author: 'Juan',
-      cover: 'fondo10.jpg'
+      author: 'Juan, $600 por 8 Hrs',
+      cover: 'https://images.unsplash.com/photo-1505210654861-bfdbd35613f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     },
     {
       id: 2,
       title: 'Jardin Tijuana',
-      author: 'Pedro',
-      cover: 'fondo12.jpg'
+      author: 'Pedro, $400 por 8 Hrs',
+      cover: 'https://images.unsplash.com/photo-1541694383-4d7c232ce406?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     },
     {
       id: 3,
       title: 'Jardin Cuernavaca',
-      author: 'Jose',
-      cover: 'fondo13.jpg'
+      author: 'Jose, $500 por 8 Hrs',
+      cover: 'https://images.unsplash.com/photo-1443472933321-f2617633c81b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     },
     {
       id: 1,
       title: 'Jardin Ensenada',
-      author: 'Juan Pedro',
-      cover: 'fondo14.jpg'
+      author: 'Juan Pedro, $1000 por 8 Hrs',
+      cover: 'https://images.unsplash.com/photo-1567096129236-4224d3b0523c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     },
     {
       id: 2,
       title: 'Jardin Veracruz',
-      author: 'Maria',
-      cover: 'fondo15.jpg'
+      author: 'Maria, $300 por 8 Hrs',
+      cover: 'https://images.unsplash.com/photo-1541387749012-e850c3f7634a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     },
     {
       id: 3,
       title: 'Jardin VillaHermosa',
-      author: 'Sabrina',
-      cover: 'fondo16.jpg'
+      author: 'Sabrina, $500 por 8 Hrs',
+      cover: 'https://images.unsplash.com/photo-1505244598423-9418965c77a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     },
     {
       id: 1,
       title: 'Jardin Del Valle',
-      author: 'Karla',
-      cover: 'fondo17.jpg'
+      author: 'Karla, $1500 por 8 Hrs',
+      cover: 'https://images.unsplash.com/photo-1566214464189-7415c3e88332?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     },
     {
       id: 2,
       title: 'Jardin Santa Fe',
-      author: 'Paulina',
-      cover: 'fondo18.jpg'
+      author: 'Paulina, $600 por 8 Hrs',
+      cover: 'https://images.unsplash.com/photo-1498578989336-56425ea7d68a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     },
     {
       id: 3,
       title: 'Jardin Pedregal',
-      author: 'Paco',
-      cover: 'fondo19.jpg'
+      author: 'Paco, $200 por 8 Hrs',
+      cover: 'https://images.unsplash.com/photo-1437844480143-6044ead092cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     },
     {
       id: 1,
       title: 'Jardin Queretaro',
-      author: 'Maria y Juan Carlos',
-      cover: 'fondo20.jpg'
+      author: 'Maria y Juan Carlos, $500 por 8 Hrs',
+      cover: 'https://images.unsplash.com/photo-1564227230893-66a0cf5285d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     },
     {
       id: 2,
       title: 'Jardin Tequisquiapan',
-      author: 'Fernando',
-      cover: 'fondo21.jpg'
+      author: 'Fernando, $200 por 8 Hrs',
+      cover: 'https://images.unsplash.com/photo-1552546076-3431a9df348b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     },
     {
       id: 3,
       title: 'Jardin Ciudad de Mexico',
-      author: 'Sofia',
-      cover: 'fondo22.jpg'
+      author: 'Sofia, $900 por 8 Hrs',
+      cover: 'https://images.unsplash.com/photo-1563377504057-1266d207a9bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
     }
 ];
   
@@ -120,7 +121,7 @@ const Home = () => (
         <section className="hero">
           <div className="container">
             <h1 className="hero-title">iGarden</h1>
-            <h2 className="hero-subtitle">Renta tu Jardin para tus Eventos de forma Segura y a tu alcance.</h2>
+            <h2 className="hero-subtitle">Renta un Jardin para tus Eventos, de forma Segura y a tu alcance.</h2>
           </div>
         </section>
         <section className="content">
